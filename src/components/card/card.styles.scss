@@ -1,0 +1,43 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border: 1px solid #ff0000;
+  border-radius: 5px;
+  padding: 25px 25px 70px 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+  h2 {
+    min-height: 3.2em;
+  }
+  img {
+    max-width: 100%;
+  }
+  .more-info-button {
+    width: calc(100% - 50px);
+    position: absolute;
+    bottom: 25px;
+    background-color: rgba(255, 0, 0, 1);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    cursor: pointer;
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}
+// rgba(255, 0, 0, 1)
+//     rgba(255, 202, 0, 1)
