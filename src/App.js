@@ -45,7 +45,7 @@ class App extends Component {
     return (
       <Protect
         boxTitle='Welcome to the Superbryte Team Page! This page is password protected. '
-        buttonLabel='See page'
+        buttonLabel='See Page'
         inputPlaceholder='Type your password'
         sha512='1da71d0ef5a27b9b9006571e563377c4d40e386968e8d4a209c16b7c0822cc80f20eb56b3fadd2d1badb7aa2e790541ec7f542152d713c44ebad6bc349bc8a52'
       >
