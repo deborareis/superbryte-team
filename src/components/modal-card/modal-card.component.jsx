@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { ReactComponent as LinkedinLogo } from './../../assets/fa-linkedin-brands.svg';
+import ModalMap from './modal.map.component';
 
 import './modal-card.styles.scss';
 
@@ -27,6 +28,9 @@ export const ModalCard = user => {
           <b>Location: </b>
           {user.city}
         </p>
+      </div>
+      <div className='map-container'>
+        <ModalMap {...user} />
       </div>
     </div>
   );

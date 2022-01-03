@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 
+import { Header } from './components/header/header.component';
 import { CardList } from './components/card-list/card-list.component';
 import { SearchBox } from './components/search-box/search-box.component';
 
-import { ReactComponent as Logo } from './assets/superbryteLogo.svg';
+import HomepageMap from './components/map/map.component';
 
 import './App.css';
 
@@ -40,8 +41,8 @@ class App extends Component {
     );
     return (
       <div className='App'>
-        <Logo className='logo' />
-        <h1>Super Team</h1>
+        <Header />
+
         <SearchBox
           placeholder='Search team star...'
           handleChange={this.handleChange}
@@ -52,6 +53,9 @@ class App extends Component {
           showModal={this.showModal}
           data={this.state}
         />
+        <div className='map-container'>
+          <HomepageMap className='homepage-map' />
+        </div>
       </div>
     );
   }
@@ -67,6 +71,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/ChQCT15/daniel.jpg',
           role: 'CEO & CPO',
           city: 'Berlin',
+          countryCode: 'DEU',
           geo: {
             lat: '52.5065133',
             lng: '13.1445545'
@@ -83,6 +88,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/yphbCC4/debora.jpg',
           role: 'Front-end Developer',
           city: 'Salvaterra de Magos',
+          countryCode: 'PRT',
           geo: {
             lat: '39.439455',
             lng: '-9.2065247'
@@ -98,6 +104,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/yPXYTP0/francisco.jpg',
           role: 'Lead Front-end Developer',
           city: 'Caldas da Rainha',
+          countryCode: 'PRT',
           geo: {
             lat: '39.439455',
             lng: '-9.2065247'
@@ -113,6 +120,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/6PhL9nN/hicham.jpg',
           role: 'Co-Founder',
           city: 'Berlin',
+          countryCode: 'DEU',
           geo: {
             lat: '52.5065133',
             lng: '13.1445545'
@@ -128,6 +136,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/MC1DdcM/joao.jpg',
           role: 'Lead Back-end Developer',
           city: 'Caldas da Rainha',
+          countryCode: 'PRT',
           geo: {
             lat: '39.439455',
             lng: '-9.2065247'
@@ -143,6 +152,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/wQy0RWK/katrin.jpg',
           role: 'UX/UI Designer',
           city: 'Berlin',
+          countryCode: 'DEU',
           geo: {
             lat: '52.5065133',
             lng: '13.1445545'
@@ -158,6 +168,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/yySXky2/lenny.jpg',
           role: 'CTO',
           city: 'Caldas da Rainha',
+          countryCode: 'PRT',
           geo: {
             lat: '39.439455',
             lng: '-9.2065247'
@@ -173,6 +184,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/ScQkgZN/mario.jpg',
           role: 'UX/UI Designer',
           city: 'Berlin',
+          countryCode: 'DEU',
           geo: {
             lat: '52.5065133',
             lng: '13.1445545'
@@ -188,6 +200,7 @@ class App extends Component {
           imgUrl: 'https://i.ibb.co/z45bZvD/sophie.jpg',
           role: 'Lead Training Specialist',
           city: 'Berlin',
+          countryCode: 'DEU',
           geo: {
             lat: '52.5065133',
             lng: '13.1445545'

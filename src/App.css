@@ -6,15 +6,8 @@ body {
 .App {
   text-align: center;
 }
-
-h1 {
-  font-family: 'Poppins';
-  font-weight: 300;
-  font-size: 50px;
-  color: #2a2e35;
-  text-transform: uppercase;
-}
-.logo {
-  transform: scale(1.5);
-  margin-top: 10px;
+.map-container {
+  width: 100%;
+  right: 0;
+  z-index: -1;
 }
