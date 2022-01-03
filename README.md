@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## To run this app
 
-Run Yarn to install dependencies then
+Run Yarn to install dependencies then yarn start.
 
 ### `yarn`
 

@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import Protect from 'react-app-protect';
+import './password-protect.styles.scss';
+
 import { Header } from './components/header/header.component';
 import { CardList } from './components/card-list/card-list.component';
 import { SearchBox } from './components/search-box/search-box.component';
@@ -40,23 +43,30 @@ class App extends Component {
       user.name.toLowerCase().includes(searchField.toLowerCase())
     );
     return (
-      <div className='App'>
-        <Header />
+      <Protect
+        boxTitle='Welcome to the Superbryte Team Page! This page is password protected. '
+        buttonLabel='See page'
+        inputPlaceholder='Type your password'
+        sha512='1da71d0ef5a27b9b9006571e563377c4d40e386968e8d4a209c16b7c0822cc80f20eb56b3fadd2d1badb7aa2e790541ec7f542152d713c44ebad6bc349bc8a52'
+      >
+        <div className='App'>
+          <Header />
 
-        <SearchBox
-          placeholder='Search team star...'
-          handleChange={this.handleChange}
-        />
-        <CardList
-          users={filteredUsers}
-          hideModal={this.hideModal}
-          showModal={this.showModal}
-          data={this.state}
-        />
-        <div className='map-container'>
-          <HomepageMap className='homepage-map' />
+          <SearchBox
+            placeholder='Search team star...'
+            handleChange={this.handleChange}
+          />
+          <CardList
+            users={filteredUsers}
+            hideModal={this.hideModal}
+            showModal={this.showModal}
+            data={this.state}
+          />
+          <div className='map-container'>
+            <HomepageMap className='homepage-map' />
+          </div>
         </div>
-      </div>
+      </Protect>
     );
   }
 
