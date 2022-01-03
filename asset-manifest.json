@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/superbryte-team/static/css/main.8c59c9c9.chunk.css",
-    "main.js": "/superbryte-team/static/js/main.824e4bc9.chunk.js",
-    "main.js.map": "/superbryte-team/static/js/main.824e4bc9.chunk.js.map",
-    "runtime-main.js": "/superbryte-team/static/js/runtime-main.e26d1f22.js",
-    "runtime-main.js.map": "/superbryte-team/static/js/runtime-main.e26d1f22.js.map",
-    "static/js/2.c7aba556.chunk.js": "/superbryte-team/static/js/2.c7aba556.chunk.js",
-    "static/js/2.c7aba556.chunk.js.map": "/superbryte-team/static/js/2.c7aba556.chunk.js.map",
-    "static/js/3.70dc82b6.chunk.js": "/superbryte-team/static/js/3.70dc82b6.chunk.js",
-    "static/js/3.70dc82b6.chunk.js.map": "/superbryte-team/static/js/3.70dc82b6.chunk.js.map",
+    "main.css": "/superbryte-team/static/css/main.0417bb27.chunk.css",
+    "main.js": "/superbryte-team/static/js/main.4cd7826b.chunk.js",
+    "main.js.map": "/superbryte-team/static/js/main.4cd7826b.chunk.js.map",
+    "runtime-main.js": "/superbryte-team/static/js/runtime-main.8096aabf.js",
+    "runtime-main.js.map": "/superbryte-team/static/js/runtime-main.8096aabf.js.map",
+    "static/js/2.bf858b92.chunk.js": "/superbryte-team/static/js/2.bf858b92.chunk.js",
+    "static/js/2.bf858b92.chunk.js.map": "/superbryte-team/static/js/2.bf858b92.chunk.js.map",
+    "static/js/3.0793f8d3.chunk.js": "/superbryte-team/static/js/3.0793f8d3.chunk.js",
+    "static/js/3.0793f8d3.chunk.js.map": "/superbryte-team/static/js/3.0793f8d3.chunk.js.map",
     "index.html": "/superbryte-team/index.html",
-    "static/css/main.8c59c9c9.chunk.css.map": "/superbryte-team/static/css/main.8c59c9c9.chunk.css.map",
-    "static/js/2.c7aba556.chunk.js.LICENSE.txt": "/superbryte-team/static/js/2.c7aba556.chunk.js.LICENSE.txt",
+    "static/css/main.0417bb27.chunk.css.map": "/superbryte-team/static/css/main.0417bb27.chunk.css.map",
+    "static/js/2.bf858b92.chunk.js.LICENSE.txt": "/superbryte-team/static/js/2.bf858b92.chunk.js.LICENSE.txt",
     "static/media/fa-linkedin-brands.9ca4fc72.svg": "/superbryte-team/static/media/fa-linkedin-brands.9ca4fc72.svg",
     "static/media/superbryteLogo.b9f57b32.svg": "/superbryte-team/static/media/superbryteLogo.b9f57b32.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.e26d1f22.js",
-    "static/js/2.c7aba556.chunk.js",
-    "static/css/main.8c59c9c9.chunk.css",
-    "static/js/main.824e4bc9.chunk.js"
+    "static/js/runtime-main.8096aabf.js",
+    "static/js/2.bf858b92.chunk.js",
+    "static/css/main.0417bb27.chunk.css",
+    "static/js/main.4cd7826b.chunk.js"
   ]
 }
